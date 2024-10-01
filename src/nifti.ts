@@ -140,8 +140,6 @@ export { NIFTIEXTENSION } from "./nifti-extension";
 
     if (header) {
       header.readHeader(data);
-    } else {
-      console.error("That file does not appear to be NIFTI!");
     }
 
     return header;
